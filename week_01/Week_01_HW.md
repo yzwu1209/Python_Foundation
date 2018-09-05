@@ -1,6 +1,6 @@
 ### Week 1 Assignment - W200 Python Fundamentals for Data Science, UC Berkeley MIDS
 
-
+This assignment is due at 11:59 PM PST the day before your live class.  (So if you have class on Tuesday this is due Monday night at 11:59 PM PST)
 
 ## Command line and bash scripting
 
