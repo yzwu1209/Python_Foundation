@@ -1,0 +1,64 @@
+Last login: Sun Sep  2 20:45:17 on ttys000
+Chloes-MBP:~ cati$ pwd
+/Users/cati
+Chloes-MBP:~ cati$ cd ~/Documents
+Chloes-MBP:Documents cati$ ls
+Life	Study	Zoom
+Chloes-MBP:Documents cati$ cd Study
+Chloes-MBP:Study cati$ ls
+Grad School Application			Penn Two-Step Verification codes.pdf	UCB
+Chloes-MBP:Study cati$ cd UCB
+Chloes-MBP:UCB cati$ LS
+Elevator Pitch.pdf				Networking.pdf					cert.pdf
+Estimated Cost - Academic Year.pdf		Statement of Intent to Register_encrypted_.pdf	styleguide-2013-mids.pdf
+Fundamentals of Data Structures and Algorithms	W200-Python					wework.pdf
+MIDS Program Overview - Fall 2018.pdf		W201-RDADA
+Chloes-MBP:UCB cati$ cd W200-Python
+Chloes-MBP:W200-Python cati$ ls
+2.13+Git+Vocabulary.md.pdf	Installation			Week_01				assignments_upstream_fall18
+Chloes-MBP:W200-Python cati$ cd assignments_upstream_fall18/SUBMISSIONS/
+Chloes-MBP:SUBMISSIONS cati$ ls
+First_Github_Exercise.txt
+Chloes-MBP:SUBMISSIONS cati$ mkdir Week_01
+Chloes-MBP:SUBMISSIONS cati$ ls
+First_Github_Exercise.txt	Week_01
+Chloes-MBP:SUBMISSIONS cati$ cd Week_01
+Chloes-MBP:Week_01 cati$ ls
+Chloes-MBP:Week_01 cati$ mkdir s1
+Chloes-MBP:Week_01 cati$ cd s1
+Chloes-MBP:s1 cati$ mkdir s2
+Chloes-MBP:s1 cati$ mkdir s3
+Chloes-MBP:s1 cati$ cd s3
+Chloes-MBP:s3 cati$ touch conf.txt
+Chloes-MBP:s3 cati$ cd ..
+Chloes-MBP:s1 cati$ cd s2
+Chloes-MBP:s2 cati$ touch text_chunk1.txt
+Chloes-MBP:s2 cati$ mkdir Advanced
+Chloes-MBP:s2 cati$ cd Advanced/
+Chloes-MBP:Advanced cati$ touch text_chunk2.txt
+Chloes-MBP:Advanced cati$ cd ..
+Chloes-MBP:s2 cati$ cd s3
+-bash: cd: s3: No such file or directory
+Chloes-MBP:s2 cati$ cd ../s3
+Chloes-MBP:s3 cati$ ls
+conf.txt
+Chloes-MBP:s3 cati$ echo "I love bash scripting." >> conf.txt
+Chloes-MBP:s3 cati$ cat conf.txt
+I love bash scripting.
+Chloes-MBP:s3 cati$ cd ../s2
+Chloes-MBP:s2 cati$ echo "A whole new world" >> text_chunk1.txt
+Chloes-MBP:s2 cati$ echo "A new fantastic point of view" >> text_chunk1.txt
+Chloes-MBP:s2 cati$ cat text_chunk1.txt
+A whole new world
+A new fantastic point of view
+Chloes-MBP:s2 cati$ cd Advanced/
+Chloes-MBP:Advanced cati$ cat ../text_chunk1.txt > text_chunk2.txt
+Chloes-MBP:Advanced cati$ cat text_chunk2.txt
+A whole new world
+A new fantastic point of view
+Chloes-MBP:Advanced cati$ echo "Do you want to build a snowman?" >> text_chunk2.txt
+Chloes-MBP:Advanced cati$ cat text_chunk2.txt
+A whole new world
+A new fantastic point of view
+Do you want to build a snowman?
+Chloes-MBP:Advanced cati$ 
