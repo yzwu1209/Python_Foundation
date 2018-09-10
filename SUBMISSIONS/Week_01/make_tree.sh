@@ -1,7 +1,5 @@
 
 #!/bin/bash
-mkdir Week_01
-cd Week_01
 mkdir s1
 cd s1
 mkdir s2
