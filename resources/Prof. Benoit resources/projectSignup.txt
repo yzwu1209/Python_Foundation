@@ -1,0 +1,8 @@
+SIGN UP LIST FOR PROJECT 2:
+
+Please enter the team names and section #.
+
+E.g., 
+John Smith + Jane Doe, section 4.
+
+[thanks]
