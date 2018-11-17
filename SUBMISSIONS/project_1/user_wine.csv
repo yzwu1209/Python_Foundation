@@ -1,0 +1,12 @@
+user,wine,want_to_taste,have_tasted,score,review,recommend
+chloe,0,0,1,90,not bad!,1.0
+chloe,1,0,1,97.0,Very good choice for a hot summer night,1.0
+chloe,9959,1,0,,,
+chloe,12551,0,1,92.0,Fruity taste. Love it.,1.0
+chloe,345,1,0,,,
+bigcat,22,1,0,,,
+newyorker,113929,0,1,94.0,US wine is doing a better job,0.0
+newyorker,346,0,1,97.5,very good wine for family gathering,1.0
+newyorker,7335,0,1,98.5,"I like the taste, the smell of it.",1.0
+snowman,345,1,0,,,
+snowman,12551,0,1,98.0,good choice for a summer night,1.0
