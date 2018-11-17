@@ -6,3 +6,7 @@ E.g.,
 John Smith + Jane Doe, section 4.
 
 [thanks]
+
+-----------------------
+
+Alexander Mueller + Kevin Stone, Section 3
